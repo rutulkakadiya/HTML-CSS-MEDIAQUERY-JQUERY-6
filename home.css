@@ -1,0 +1,913 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.block{
+    height: 100%;
+    width: 20%;
+    background-color: black;
+    position: absolute;
+    top: 0%;
+    left: 80%;
+    display: none;
+}
+
+.block i{
+    color: white;
+    font-size: 35px;
+    margin-left: 85%;
+    margin-top: 5%;
+    transition-duration: 0.5s;
+}
+
+.block i:hover{
+    color: #90dd40;
+}
+.aa{
+    display: block;
+}
+
+.cc{
+    display: none;
+}
+
+.dd{
+    margin-left: 0%;
+}
+
+.block img{
+    height: 50px;
+    margin-top: 10%;
+}
+
+.block ul{
+    margin-left: 10%;
+    color: white;
+    margin-top: 10%;
+    font-family: 'Jost';
+}
+
+.block ul li{
+    margin-top: 5%;
+    list-style: none;
+    font-size: 14px;
+    transition-duration: 0.5s;
+}
+
+.block ul li:hover{
+    color: #90dd40;
+}
+.bb{
+    margin-left: -20%;
+}
+
+.background{
+    height: 70px;
+    width: 100%;
+    background-color: #222222;
+    transition-duration: 1s;
+}
+
+.background .logo img{
+    height: 50px;
+    margin-top: 5%;
+}
+
+.background .nav1{
+    margin-top: -1%;
+}
+
+.background .nav2 a{
+    line-height: 70px;
+}
+.main1{
+    height: 730px;
+    width: 100%;
+    background-image: url(Image/bg1.jpg);
+    background-size: cover;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    /* border: 1px solid white; */
+    background-position: center;
+    display: flex;
+    position: fixed;
+    z-index: 5;
+}
+
+.logo{
+    height: 100%;
+    width: 15%;
+    /* border: 1px solid white; */
+}
+
+.logo img{
+    height: 80px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.nav1{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid white; */
+    display: flex;
+}
+
+.n1{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid white; */
+    font-family: 'Jost';
+}
+
+.n1 img{
+    margin-top: 10%;
+    margin-left: 5%;
+    float: left;
+}
+
+.n1 a{
+    float: left;
+    color: #90dd40;
+    font-size: 13px;
+    margin-top: 9%;
+    margin-left: 5%;
+    text-decoration: none;
+}
+
+
+.nav2{
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid white; */
+    font-family: 'Jost';
+}
+
+.nav2 a{
+    line-height: 100px;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    margin-inline: 2%;
+    transition-duration: 1s;
+}
+.nav2 a:hover{
+    color: #90dd40;
+}
+
+
+#a1{
+    color: #90dd40;
+    margin-left: 18%;
+}
+
+.nav2 button{
+    height: 35px;
+    width: 120px;
+    border-radius: 30px;
+    background-color: transparent;
+    /* border: 1px solid white; */
+    color: white;
+    font-family: 'Jost';
+    font-weight: 500;
+    margin-left: 1%;
+    transition-duration: 0.5s;
+}
+
+.nav2 button:hover{
+    background-color: #90dd40;
+    border: 0px;
+}
+
+.nav2 i{
+    color: white;
+    margin-left: 3%;
+    font-size: 25px;
+}
+
+.main2{
+    height: 630px;
+    width: 100%;
+    /* border: 1px solid white; */
+    position: absolute;
+    top: 100px;
+    display: flex;
+}
+
+.s1{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid white; */
+    font-family: 'Jost';
+}
+
+.s1 h1{
+    font-size: 70px;
+    color: #90dd40;
+    margin-top: 15%;
+    margin-left: 5%;
+}
+
+.s1 .s3{
+    height: 300px;
+    width: 80%;
+    /* border: 1px solid white; */
+    margin-left: 5%;
+}
+
+.s1 .s3 h2{
+    color: white;
+    font-weight: 300;
+    font-size: 35px;
+}
+
+.s1 .s3 p{
+    color: white;
+    width: 500px;
+    line-height: 25px;
+}
+
+.s1 .s3 i{
+    color: white;
+    margin-inline: 10px;
+    transition-duration: 0.5s;
+} 
+
+.s1 .s3 i:hover{
+    color: #90dd40;
+}
+
+.s2{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.s2 .img1{
+    height: 300px;
+    width: 750px;
+    position: relative;
+    top: 170px;
+    left: 1%;
+}
+
+.s2 .img2{
+    height: 550px;
+    position: relative;
+    top: -250px;
+    left: 15%;
+    z-index: 1;
+    animation: animation1 3s infinite linear;
+}
+
+@keyframes animation1{
+    50%{
+        top: -225px;
+    }
+}
+
+.main3{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.s4{
+    height: 100%;
+    width: 55%;
+    background-image: url(Image/Image-2-1.jpg);
+    /* background-attachment: fixed; */
+    background-size: cover;
+    font-family: 'Jost';
+}
+
+.s4 .img3{
+    height: 500px;
+    position: relative;
+    top: 330px;
+    left: 500px;
+    animation: animation2 3s infinite linear;
+}
+
+@keyframes animation2{
+    50%{
+        top: 300px;
+    }
+}
+
+.s5{
+    height: 100%;
+    width: 45%;
+    background-color: white;
+    font-family: 'Jost';
+}
+
+.s6{
+    height: 200px;
+    width: 750px;
+    /* border: 1px solid black; */
+    margin-left: -20%;
+    margin-top: 15%;
+    display: flex;
+}
+
+.s7{
+    height: 100%;
+    width: 33%;
+    /* border: 1px solid black; */
+}
+
+.s7 a{
+    text-decoration: none;
+    color: #90dd40;
+    font-size: 18px;
+}
+
+.s7 h1{
+    font-size: 65px;
+    font-weight: 500;
+}
+
+.s7 p{
+    width: 200px;
+    color: #8b827c;
+    font-size: 16px;
+}
+
+.s8{
+    height: 300px;
+    width: 550px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 10%;
+    left: 18%;
+}
+
+.s8 h1{
+    text-align: right;
+    font-size: 80px;
+    color: #90dd40;
+}
+
+.s8 h2{
+    text-align: right;
+    font-weight: 300;
+    font-size: 40px;
+    margin-top: -3%;
+}
+
+.s8 p{
+    width: 500px;
+    text-align: right;
+    margin-left: 7%;
+    margin-top: 5%;
+    color: #8b827c;
+    font-size: 18px;
+}
+
+.main4{
+    height: 400px;
+    width: 100%;
+    background-image: url(Image/Image-2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Jost';
+}
+
+.main4 h1{
+    font-size: 75px;
+    color: #90dd40;
+}
+
+.main4 h2{
+    color: white;
+    font-size: 35px;
+    font-weight: 300;
+}
+
+.main4 .img4{
+    opacity: 0.5;
+    animation: animation3 3s infinite linear;
+}
+
+@keyframes animation3{
+    50%{
+        opacity: 1;
+    }
+}
+
+.main5{
+    height: 600px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.s9{
+    height: 100%;
+    width: 55%;
+    /* border: 1px solid black; */
+}
+
+.s9 .img5{
+    height: 400px;
+    width: 750px;
+    position: relative;
+    top: 150px;
+    left: 5%;
+    transition-duration: 0.5s;
+}
+
+.s9 .img5:hover{
+    transform: rotate(5deg) scale(1.1);
+}
+.s10{
+    height: 100%;
+    width: 45%;
+    /* border: 1px solid black; */
+}
+
+.s11{
+    height: 400px;
+    width: 550px;
+    /* border: 1px solid black; */
+    position: relative;
+    top: 150px;
+    left: 115px;
+    font-family: 'Jost';
+}
+
+.s11 h1{
+    color: #90dd40;
+    text-align: right;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.s11 h2{
+    text-align: right;
+    font-weight: 300;
+    font-size: 35px;
+    margin-top: -10px;
+}
+
+.s11 p{
+    text-align: right;
+    margin-top: 45px;
+    width: 470px;
+    margin-left: 75px;
+}
+
+.s12{
+    height: 250px;
+    width: 40%;
+    /* border: 1px solid black; */
+    margin-top: 5%;
+    font-family: 'Jost';
+}
+
+.s12 h1{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+
+.s12 p{
+    margin-left: 10%;
+    width: 400px;
+    color: #8b827c;
+    font-size: 18px;
+    margin-top: 3%;
+}
+
+.s13{
+    height: 500px;
+    width: 40%;
+    /* border: 1px solid black; */
+}
+
+.s13 img{
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.s13 img:hover{
+    transform: scale(0.9);
+}
+
+.s14{
+    height: 450px;
+    width: 60%;
+    position: relative;
+    top: -750px;
+    left: 40%;
+    /* border: 1px solid black; */
+}
+
+.s14 img{
+    height: 100%;
+    width: 100%;
+    transition-duration: 0.5s;
+}
+
+.s14 img:hover{
+    transform: scale(0.9);
+}
+
+.s15{
+    height: 300px;
+    width: 60%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -750px;
+    left: 40%;
+    background-image: url(Image/3.jpg);
+    background-size: cover;
+    display: flex;
+}
+
+.s16{
+    height: 100%;
+    width: 33%;
+    /* border: 1px solid black; */
+    font-family: 'Jost';
+}
+
+.s16 i{
+    color: white;
+    font-size: 50px;
+    margin-top: 20%;
+    transition-duration: 1s;
+}
+
+.s16:hover i{
+    transform: rotateY(360deg);
+}
+
+.s16 h3{
+    margin-top: 5%;
+    font-weight: 600;
+    color: white;
+    font-size: 20px;
+}
+
+.s16 p{
+    color: white;
+    font-size: 500;
+    width: 250px;
+    margin-top: 3%;
+}
+
+.main6{
+    height: 800px;
+    width: 100%;
+    background-image: url(Image/4.jpg);
+    position: relative;
+    top: -750px;
+}
+
+.s17{
+    height: 500px;
+    width: 800px;
+    /* border: 1px solid white; */
+    position: relative;
+    top: 130px;
+    left: 3%;
+    font-family: 'Jost';
+}
+
+.s17 h1{
+    color: #90dd40;
+    font-size: 80px;
+}
+
+.s17 h2{
+    color: white;
+    font-size: 45px;
+    font-weight: 300;
+}
+
+.s17 p{
+    color: white;
+    width: 650px;
+    font-size: 18px;
+    margin-top: 5%;
+    line-height: 30px;
+}
+
+.s17 h3{
+    color: white;
+    width: 680px;
+    margin-top: 15%;
+}
+
+.main7{
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -750px;
+    display: flex;
+}
+
+.s18{
+    height: 100%;
+    width: 50%;
+    background-color: #242424;
+    font-family: 'Jost';
+}
+
+.s18 h1{
+    font-size: 120px;
+    color: white;
+    font-style: italic;
+    margin-top: 5%;
+}
+
+.s18 .img6{
+    height: 700px;
+    width: 700px;
+    position: relative;
+    top: -180px;
+    animation: animation4 3s infinite linear;
+}
+
+@keyframes animation4{
+    50%{
+        top: -150px;
+    }
+}
+
+.s18 #h1{
+    color: #90dd40;
+    font-style: normal;
+    font-size: 70px;
+    position: relative;
+    top: -650px;
+    left: 50%;
+    line-height: 70px;
+}
+
+.s19{
+    height: 100%;
+    width: 50%;
+    background-color: white;
+    font-family: 'Jost';
+}
+
+.s19 .img7{
+    height: 630px;
+    width: 630px;
+    position: relative;
+    top: 100px;
+    left: 10%;
+    animation: animation5 3s infinite linear;
+}
+
+@keyframes animation5{
+    50%{
+        top: 130px;
+    }
+}
+
+.s19 h1{
+    font-size: 120px;
+    color: #8b827c;
+    font-style: italic;
+    margin-left: 20%;
+    margin-top: -3%;
+}
+
+.main8{
+    height: 750px;
+    width: 100%;
+    border: 1px solid white;
+    background-image: url(Image/8.jpg);
+    position: relative;
+    top: -750px;
+    background-size: cover;
+}
+
+.s20{
+    height: 450px;
+    width: 600px;
+    /* border: 1px solid black; */
+    margin-left: 3%;
+    margin-top: 10%;
+    font-family: 'Jost';
+}
+
+.s20 h1{
+    color: #90dd40;
+    font-size: 80px;
+}
+
+.s20 h2{
+    font-weight: 300;
+    font-size: 45px;
+    margin-top: -3%;
+}
+
+.s20 p{
+    font-size: 18px;
+    width: 550px;
+    line-height: 30px;
+    margin-top: 3%;
+}
+
+.s20 button{
+    height: 35px;
+    width: 150px;
+    border-radius: 30px;
+    background-color: #90dd40;
+    border: 0px;
+    color: white;
+    transition-duration: 0.5s;
+    font-weight: 600;
+    margin-top: 3%;
+}
+
+.s20 button:hover{
+    background-color: white;
+    color: #90dd40;
+    border: 1px solid #90dd40;
+}
+
+.main9{
+    height: 700px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    position: relative;
+    top: -750px;
+}
+
+.s21{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.s23{
+    height: 50%;
+    width: 50%;
+    /* border: 1px solid black; */
+    /* background-image: url(Image/9.jpg); */
+    background-size: cover;
+}
+
+.s23 .img8{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.s22{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid black; */
+}
+.s24{
+    height: 80%;
+    width: 100%;
+    /* border: 1px solid black; */
+    margin-top: 10%;
+    font-family: 'Jost';
+    background-image: url(Image/13.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+.s24 h1{
+    font-size: 50px;
+    color: #90dd40;
+}
+
+.s24 h2{
+    color: #90dd40;
+    font-weight: 400;
+    margin-top: 1%;
+    font-size: 30px;
+}
+
+.s24 p{
+    width: 700px;
+    margin-top: 3%;
+}
+
+.s24 h3{
+    color: #8b827c;
+    font-weight: 400;
+    margin-top: 3%;
+}
+
+.s24 button{
+    height: 45px;
+    width: 700px;
+    border-radius: 30px;
+    border: 0px;
+    background-color: #90dd40;
+    color: white;
+    font-family: 'Jost';
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.s24 button:hover{
+    background-color: transparent;
+    color: #90dd40;
+    border: 1px solid #90dd40;
+}
+
+.s25{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    float: left;
+    background-image: url(Image/Image-1-3.webp);
+    background-size: cover;
+}
+
+.s26{
+    height: 100px;
+    width: 100px;
+    /* border: 1px solid black; */
+    float: left;
+    margin-left: 10px;
+    background-image: url(Image/Image-4.webp);
+    background-size: cover;
+}
+
+footer{
+    height: 150px;
+    width: 100%;
+    /* border: 1px solid black; */
+    position: relative;
+    top: -700px;
+    background-color: #242424;
+    display: flex;
+    
+}
+
+footer .s27{
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid white; */
+}
+footer .s27 img{
+    height: 70px;
+    width: 50%;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.s28{
+    height: 100%;
+    width: 50%;
+    /* border: 1px solid white; */
+}
+
+.s28 a{
+    line-height: 150px;
+    color: white;
+    font-family: 'Jost';
+    text-decoration: none;
+    margin-left: 15px;
+    transition-duration: 0.5s;
+}
+
+.s28 a:hover{
+    color: #90dd40;
+}
+.s29{
+    height: 100%;
+    width: 30%;
+    /* border: 1px solid white; */
+}
+
+.s29 button{
+    height: 45px;
+    width: 150px;
+    /* border: 1px solid white; */
+    border-radius: 30px;
+    margin-top: 10%;
+    margin-left: 60%;
+    font-family: 'Jost';
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+.s29 button:hover{
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+}
